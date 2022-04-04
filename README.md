@@ -20,7 +20,7 @@ This application  Loki latest version and download it on all machines using a po
 5. zipfile
 
 ## Fetch <a name = "Fetch"></a>
-Odin download and extract the latest version on Loki and start HTTP server to deliver the executable (Loki) to all machines.
+LOki Scanner download and extract the latest version on Loki and start HTTP server to deliver the executable (Loki) to all machines.
 
 <kbd>![image](img/fetch.png)</kbd>
 
@@ -31,7 +31,7 @@ The script is in Configurations tab and you can modiy the scipt as needed.
 <kbd>![image](img/deploy-loki.png)</kbd>
 
 ## Collecting <a name = "Collecting"></a>
-Start the listener then from the powershell script start Loki to search for IoCs and results will be sent from Loki to Odin
+Start the listener then from the powershell script start Loki to search for IoCs and results will be sent from Loki to LOki Scanner
 
 <kbd>![image](img/collect.png)</kbd>
 
