@@ -386,3 +386,6 @@ if __name__ == "__main__":
     window = MyWindow()
     window.show()
     sys.exit(app.exec_())
+
+    
+    ..
