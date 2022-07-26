@@ -71,3 +71,6 @@ def ScanWMI():
 
 
 LokiRegisterPlugin("PluginWMI", ScanWMI, 1)  # noqa: F821 undefined name 'LokiRegisterPlugin'
+
+
+.
