@@ -74,3 +74,12 @@ LokiRegisterPlugin("PluginWMI", ScanWMI, 1)  # noqa: F821 undefined name 'LokiRe
 
 
 .
+if sys.platform in ("win32", "cygwin"):
+        try:
+            import wmi
+        except ImportError as e:
+            wmi = None
+            logger.log("CRITICAL", "WMIScan", "Unable to import wmi")
+            print("Unable to import wmi")
+        oWMI = wmi.WMI(namespace=r'root\subscription')
+
